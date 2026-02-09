@@ -6,7 +6,7 @@ const repeatString = function(text,numberOfCopies) {
   } else{
     text = text;
   }
-   return text;
+    return text;
 };
 // Do not edit below this line
 module.exports = repeatString;
