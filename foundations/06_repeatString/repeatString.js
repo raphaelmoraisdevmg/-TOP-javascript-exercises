@@ -1,12 +1,18 @@
 const repeatString = function(text,numberOfCopies) {
+  let copyString = ""
   if(numberOfCopies < 0){
-    text = "ERROR"
-  }else if(numberOfCopies == 0){
-    text ="";
-  } else{
-    text = text;
+    copyString = "ERROR"
+  }else if(numberOfCopies  == 0){
+    copyString ="";
+  } else if(numberOfCopies == 1){
+    copyString = text;
+  }else{
+     for(let counter=0;counter<numberOfCopies;counter++){
+      copyString += text;
+   }
   }
-    return text;
+    
+    return copyString;
 };
 // Do not edit below this line
 module.exports = repeatString;
