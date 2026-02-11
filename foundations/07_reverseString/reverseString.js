@@ -17,7 +17,7 @@ function reversingString(stringFragmentA,stringFragmentB,text){
   }
 }*/
 const reverseString = function(text) {
-  if(text=""){
+  if(text==""){
     return text
   }else{
     //const standardString=standardizingString(text);
